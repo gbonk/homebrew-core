@@ -8,9 +8,9 @@ class Wine < Formula
   head "git://source.winehq.org/git/wine.git"
 
   stable do
-    url "https://dl.winehq.org/wine/source/1.8/wine-1.8.3.tar.bz2"
-    mirror "https://downloads.sourceforge.net/project/wine/Source/wine-1.8.3.tar.bz2"
-    sha256 "d7cecdf7aab93bfe950e6f83ec526681b8770788c7b2a802bfe50ff97fc17a6c"
+    url "https://dl.winehq.org/wine/source/1.8/wine-1.8.4.tar.bz2"
+    mirror "https://downloads.sourceforge.net/project/wine/Source/wine-1.8.4.tar.bz2"
+    sha256 "8c5f01e03b9700a446704c3026a31d7dcf5c0557c66022947952225ab6a477f2"
 
     # Patch to fix screen-flickering issues. Still relevant on 1.8. Broken on 1.9.10.
     # https://bugs.winehq.org/show_bug.cgi?id=34166
